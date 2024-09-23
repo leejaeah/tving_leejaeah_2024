@@ -1,0 +1,348 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>티빙</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css"
+    />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="pace.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <header id="header">
+        <!-- <div class="header__statusbar"></div> -->
+        <div class="header__inner">
+          <h1 class="logo">
+            <img src="images/logo.png" alt="로고" />
+          </h1>
+          <div class="airplay">
+            <img src="images/topion1.png" alt="t" />
+          </div>
+          <a href="indexmy.html" target="_self"><div class="profile"></div></a>
+        </div>
+        <nav class="header__nav">
+          <ul>
+            <li><a href="#">시리즈</a></li>
+            <li><a href="#">영화</a></li>
+            <li><a href="#">라이브</a></li>
+            <li><a href="#">KBO</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div id="slider">
+        <div class="sliderWrap">
+          <img src="images/s1.png" alt="s1" />
+          <div class="text_box">
+            <ul>
+              <li><img src="images/bannertittle.png" alt="st" /></li>
+              <li class="sub">
+                <a href="#">
+                  <p>
+                    역대급 흥행 중, 치열한 승부의 세계
+                    <br />
+                    KBO 리그 독점 생중계
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <section id="contents">
+        <div class="swiper mySwiper">
+          <ul class="swiper-wrapper">
+            <li class="button swiper-slide"><a href="#">KBO</a></li>
+            <li class="button swiper-slide"><a href="#">공포컬렉션</a></li>
+            <li class="button swiper-slide"><a href="#">해외컬렉션</a></li>
+            <li class="button swiper-slide"><a href="#">KCON</a></li>
+            <li class="button swiper-slide"><a href="#">키즈</a></li>
+            <li class="button swiper-slide"><a href="#">UFC</a></li>
+            <li class="button swiper-slide"><a href="#">테니스</a></li>
+          </ul>
+        </div>
+        <div class="top__20 swiper mySwiper2">
+          <p class="tittle">오늘의 티빙 TOP 20</p>
+          <ul class="top__box swiper-wrapper">
+            <li class="num_1 swiper-slide">
+              <img class="num" src="images/1.png" alt="1" />
+              <a href="#">
+                <div class="new">
+                  <img src="images/new.svg" alt="new" />
+                </div>
+                <div class="box">
+                  <img src="images/n1.webp" alt="n1" />
+                </div>
+                <div class="only">
+                  <img src="images/c70ba20d.svg" alt="only" />
+                </div>
+              </a>
+            </li>
+            <li class="num_2 swiper-slide">
+              <img class="num" src="images/2.png" alt="2" />
+              <a href="#">
+                <div class="new">
+                  <img src="images/new.svg" alt="new" />
+                </div>
+                <div class="box">
+                  <img src="images/n2.webp" alt="n2" />
+                </div>
+              </a>
+            </li>
+            <li class="num_3 swiper-slide">
+              <img class="num" src="images/3.png" alt="1" />
+              <a href="#">
+                <div class="new">
+                  <img src="images/new.svg" alt="new" />
+                </div>
+                <div class="box">
+                  <img src="images/n3.webp" alt="n3" />
+                </div>
+              </a>
+            </li>
+            <li class="num_4 swiper-slide">
+              <img class="num" src="images/4.1.png" alt="1" />
+              <a href="#">
+                <div class="new">
+                  <img src="images/new.svg" alt="new" />
+                </div>
+                <div class="box">
+                  <img src="images/n4.webp" alt="n4" />
+                </div>
+              </a>
+            </li>
+            <li class="num_5 swiper-slide">
+              <img class="num" src="images/5.1.png" alt="1" />
+              <a href="#">
+                <div class="new">
+                  <img src="images/new.svg" alt="new" />
+                </div>
+                <div class="box">
+                  <img src="images/n5.webp" alt="n5" />
+                </div>
+              </a>
+            </li>
+            <li class="num_6 swiper-slide">
+              <img class="num" src="images/6.png" alt="1" />
+              <a href="#">
+                <div class="new">
+                  <img src="images/new.svg" alt="new" />
+                </div>
+                <div class="box">
+                  <img src="images/n6.webp" alt="n6" />
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="viewing swiper mySwiper3">
+          <p class="tittle">이재아님이 시청하는 콘텐츠</p>
+          <ul class="swiper-wrapper top__box">
+            <li class="num_1 swiper-slide">
+              <a href="#">
+                <div class="db">
+                  <img src="images/db.svg" alt="더빙" />
+                </div>
+                <div class="box">
+                  <img src="images/v1.webp" alt="v1" />
+                </div>
+              </a>
+            </li>
+            <li class="num_2 swiper-slide">
+              <a href="#">
+                <div class="db">
+                  <img src="images/db.svg" alt="더빙" />
+                </div>
+                <div class="box">
+                  <img src="images/v2.webp" alt="v2" />
+                </div>
+              </a>
+            </li>
+            <li class="num_3 swiper-slide">
+              <a href="#">
+                <div class="db">
+                  <img src="images/db.svg" alt="더빙" />
+                </div>
+                <div class="box">
+                  <img src="images/n1.webp" alt="v3" />
+                </div>
+              </a>
+            </li>
+            <li class="num_4 swiper-slide">
+              <a href="#">
+                <div class="db">
+                  <img src="images/db.svg" alt="더빙" />
+                </div>
+                <div class="box">
+                  <img src="images/v4.webp" alt="v4" />
+                </div>
+              </a>
+            </li>
+            <li class="num_5 swiper-slide">
+              <a href="#">
+                <div class="db">
+                  <img src="images/db.svg" alt="더빙" />
+                </div>
+                <div class="box">
+                  <img src="images/v5.webp" alt="v4" />
+                </div>
+              </a>
+            </li>
+            <li class="num_6 swiper-slide">
+              <a href="#">
+                <div class="db">
+                  <img src="images/db.svg" alt="더빙" />
+                </div>
+                <div class="box">
+                  <img src="images/v6.webp" alt="v4" />
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- //footer -->
+    </div>
+
+    <footer id="footer">
+      <div class="footer_tittle">
+        <ul>
+          <li class="active">
+            <a href="#">
+              <img class="b1" src="images/bottom_1.png" alt="b1" />
+              <a href="#">홈</a>
+            </a>
+          </li>
+          <li>
+            <a href="indexopen.html" target="_self">
+              <img class="b2" src="images/bottom2.png" alt="b1" />
+              <a href="#"
+                >공개예정
+                <img class="num_4" src="images/4.png" alt="4" />
+              </a>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="b3" src="images/bottom3.png" alt="b1" />
+              <a href="#">검색</a>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="b4" src="images/bottom4.png" alt="b1" />
+              <a href="#">다운로드</a>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="b5" src="images/bottom5.png" alt="b1" />
+              <a href="#">기록</a>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <div id="preloader">
+      <div class="p"><img src="images/Vector (1).png" alt="tving" /></div>
+    </div>
+
+    <script>
+      paceOptions = {
+        ajax: true,
+        document: true,
+        eventLag: false,
+      };
+
+      Pace.on("done", function () {
+        $(".p")
+          .delay(500)
+          .animate(
+            { top: "30%", opacity: "0" },
+            3000,
+            $.bez([0.19, 1, 0.22, 1])
+          );
+
+        $("#preloader")
+          .delay(1500)
+          .animate({ top: "-100%" }, 2000, $.bez([0.19, 1, 0.22, 1]));
+
+        TweenMax.from("#wrap", 2, {
+          delay: 1.8,
+          y: 10,
+          opacity: 0,
+          ease: Expo.easeInOut,
+        });
+
+        setTimeout(function () {
+          $("#footer").css({
+            transform: "translateY(0)",
+            ease: Expo.easeInOut, // 원래 위치로 이동
+          });
+        }, 2300); // 1800 밀리초 (1.8초)
+      });
+
+      var swiper = new Swiper(".mySwiper", {
+        mousewheel: {
+          invert: false,
+        },
+        slidesPerView: 4,
+        spaceBetween: 100,
+        keyboard: {
+          enabled: true,
+        },
+        // autoplay: {
+        //   delay: 1500,
+
+        // },
+      });
+      // top20 키보드
+      var swiper = new Swiper(".mySwiper2", {
+        slidesPerView: 2.3,
+        spaceBetween: -30,
+        mousewheel: {
+          invert: false,
+        },
+
+        keyboard: {
+          enabled: true,
+        },
+
+        autoplay: {
+          delay: 1500,
+          // disableOnInteraction: false,
+        },
+      });
+
+      //viewing slide
+      var swiper = new Swiper(".mySwiper3", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        mousewheel: {
+          invert: false,
+        },
+
+        keyboard: {
+          enabled: true,
+        },
+      });
+    </script>
+  </body>
+</html>
